@@ -1,0 +1,15 @@
+body{
+	text-align: center;
+	padding-top: 50px;
+}
+h3{
+	margin: 20px auto 30px;
+}
+.btn{
+	line-height: 30px;
+	height: 30px;
+	padding: 0 50px;
+	background: lightblue;
+	border: none;
+	border-radius: 5px;
+}
