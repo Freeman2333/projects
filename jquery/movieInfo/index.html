@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>movie Info</title>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="index.html">movieInfo</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="jumbotron">
+			<h3 class="text-center">Search for any movie</h3>
+			<form id="searchForm">
+				<input type="text" class="form-control" id="searchText" placeholder="search movie">
+			</form>
+		</div>
+	</div>
+	<div class="container">
+		<div id="movies" class="row">
+			
+		</div>
+	</div>
+
+
+
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="app.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

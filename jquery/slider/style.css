@@ -1,0 +1,39 @@
+
+
+ul{
+	list-style-type: none;
+}
+#slider{
+	width: 720px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.slides{
+	display: block;
+	width: 6000px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.slide{
+	/*float: left;*/
+	width: 720px;
+	height: 400px;
+}
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+

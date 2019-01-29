@@ -1,0 +1,34 @@
+
+#sliderWindow{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid grey;
+}
+
+#buttonRight{
+	position: absolute;
+	color: #fff;
+	font-size: 25px;
+	right: 12px;
+	top: 42%;
+	cursor: pointer;
+
+}
+
+#buttonLeft{
+	position: absolute;
+	color: #fff;
+	font-size: 25px;
+	left: 12px;
+	top: 42%;
+	cursor: pointer;
+}
+img{
+	min-width: 500px;
+	height: 320px;
+}
+
