@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ZipCode App</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<section class="hero hero-body is-dark container">
+		  <h1 class="title">US Location Info</h1>
+		  <h2 class="subtitle">Enter a zipcode to get the location info</h2> 
+		  <form id="zipForm">
+		    <div class="field">
+		      <div class="control has-icons-left has-icons-right">
+		        <input class="input zip is-large" type="text" placeholder="Enter Zipcode">
+		        <span class="icon is-small is-left">
+		            <i class="fa fa-map-pin"></i>
+		          </span>
+		        <span class="icon is-small is-right icon-check">
+		            <i class="fa fa-check"></i>
+		          </span>
+		        <span class="icon is-small is-right icon-remove">
+		            <i class="fa fa-remove"></i>
+		          </span>
+		      </div>
+		    </div>
+		  </form>
+		</section>
+
+		<br>
+		<div class="container">
+		  <div id="output"></div>
+		</div>
+
+
+	<script src="main.js"></script>
+</body>
+</html>
