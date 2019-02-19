@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+.rating {
+  display: flex;
+}
+.rating-item {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.rating-item.active{
+  background-color: yellow;
+}
