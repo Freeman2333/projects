@@ -1,0 +1,48 @@
+html{
+	background: rgba(0,0,0,0.1) url("img.jpeg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	font-size: 10px;
+}
+
+.hand{
+	width: 50%;
+	height: 6px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	transition: all .5s ease;
+}
+
+.clock-face{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border: 10px solid #fff;
+	border-radius: 50%;
+	background: rgba(0,0,0,0.8);
+}
+
+.clock{
+	display:  flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+	/*transform: rotate: ;*/
+}
+.hand{
+	transform-origin: 100%;
+}
+
+.clock-count{
+	color: #fff;
+	font-size: 20px;
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+	background: rgba(0,0,0,0.8);
+}
+
