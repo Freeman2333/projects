@@ -1,0 +1,36 @@
+
+
+
+.beauty_table{
+	width: 100%;
+	background: #eee6a3;
+	border-collapse: collapse;
+}
+
+.beauty_table td{
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border: 2px solid brown;
+}
+
+.beauty-table__head{
+	font-weight: bold;
+	background: #d2b48c;
+}
+
+.hover-td{
+	background: red;
+	color: #fff;
+	cursor: pointer;
+}
+
+.orange{
+	background: orange;
+	color: #fff;
+}
+
+.green{
+	background: green;
+	color: #fff;
+}
